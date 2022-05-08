@@ -12,3 +12,12 @@ function leetcode1(index) {
   }
 }
 exports.leetcode1 = leetcode1;
+
+function leetcode2() {
+  const Q2 = require("./lib/Math/2. Add Two Numbers/index");
+  const ListNode = Q2.ListNode
+  const L1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+  const L2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+  return Q2.addTwoNumbers(L1, L2);
+}
+exports.leetcode2 = leetcode2;
