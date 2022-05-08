@@ -21,3 +21,11 @@ function leetcode2() {
   return Q2.addTwoNumbers(L1, L2);
 }
 exports.leetcode2 = leetcode2;
+
+function leetcode4() {
+  const q = require("./lib/Array/4. Median of Two Sorted Arrays");
+  const arr1 = [1, 3];
+  const arr2 = [2];
+  return q.findMedianSortedArrays(arr1, arr2);
+}
+exports.leetcode4 = leetcode4

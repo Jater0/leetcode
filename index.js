@@ -11,8 +11,12 @@ if (typeof leetcode === "string") {
       const { leetcode2 } = require("./console");
       log(leetcode2());
       break;
+    case 4:
+      const { leetcode4 } = require("./console");
+      log(leetcode4());
+      break;
     default:
-      log("Index not found")
+      log("Index not found");
   }
 }
 
