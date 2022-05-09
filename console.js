@@ -28,4 +28,11 @@ function leetcode4() {
   const arr2 = [2];
   return q.findMedianSortedArrays(arr1, arr2);
 }
-exports.leetcode4 = leetcode4
+exports.leetcode4 = leetcode4;
+
+function leetcode442() {
+  const q = require("./lib/Array/442. Find All Duplicates in an Array");
+  const data = [4,3,2,7,8,2,3,1];
+  return q.findDuplicates(data);
+}
+exports.leetcode442 = leetcode442;

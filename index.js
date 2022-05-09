@@ -15,6 +15,10 @@ if (typeof leetcode === "string") {
       const { leetcode4 } = require("./console");
       log(leetcode4());
       break;
+    case 442:
+      const { leetcode442 } = require("./console");
+      log(leetcode442());
+      break;
     default:
       log("Index not found");
   }
